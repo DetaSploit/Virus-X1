@@ -13,19 +13,10 @@ pink="\e[95m"
 # scripting start
 banner(){
 echo -e '\e[93m               
-
- __      ___                    __   ____ 
- \ \    / (_)                   \ \ / /_ |
-  \ \  / / _ _ __ _   _ ___ _____\ V / | |
-   \ \/ / | | '__| | | / __|______> <  | |
-    \  /  | | |  | |_| \__ \     / . \ | |
-     \/   |_|_|   \__,_|___/    /_/ \_\|_|
-                                          
-                                          
-
+――――――Tool Created By MD Asif Hasan (DetaSploit)――――――
 '
 echo " " 
-echo -e "$grn ――――――$ylo MD Asif Hasan$grn $grn――――――$rset"
+echo -e "$grn ――――――$ylo All praise is for Allah$grn $grn――――――$rset"
 echo 
 # Functions
 echo -e "$grn [\e[93m•\e[92m]$red Virus―X1 : $ylo Crash Any Android Device Using Virus-X1 $rset"
@@ -35,16 +26,7 @@ echo " "
 baner1(){
 clear
 echo -e '\e[93m               
-
- __      ___                    __   ____ 
- \ \    / (_)                   \ \ / /_ |
-  \ \  / / _ _ __ _   _ ___ _____\ V / | |
-   \ \/ / | | '__| | | / __|______> <  | |
-    \  /  | | |  | |_| \__ \     / . \ | |
-     \/   |_|_|   \__,_|___/    /_/ \_\|_|
-                                          
-                                          
-
+――――――Tool Created By MD Asif Hasan (DetaSploit)――――――
 '
 echo " "
 echo -e "$grn ――――――$ylo MD Asif Hasan$grn $grn――――――$rset"
@@ -94,16 +76,7 @@ virus(){
 clear
 echo
 echo -e '\e[92m 
-
- __      ___                    __   ____ 
- \ \    / (_)                   \ \ / /_ |
-  \ \  / / _ _ __ _   _ ___ _____\ V / | |
-   \ \/ / | | '__| | | / __|______> <  | |
-    \  /  | | |  | |_| \__ \     / . \ | |
-     \/   |_|_|   \__,_|___/    /_/ \_\|_|
-                                          
-                                          
-
+――――――Tool Created By MD Asif Hasan (DetaSploit)――――――
 '
 
 echo " "
@@ -135,16 +108,7 @@ save(){
 clear
 echo
 echo -e '\e[92m 
-
- __      ___                    __   ____ 
- \ \    / (_)                   \ \ / /_ |
-  \ \  / / _ _ __ _   _ ___ _____\ V / | |
-   \ \/ / | | '__| | | / __|______> <  | |
-    \  /  | | |  | |_| \__ \     / . \ | |
-     \/   |_|_|   \__,_|___/    /_/ \_\|_|
-                                          
-                                          
-
+――――――Tool Created By MD Asif Hasan (DetaSploit)――――――
 '
 
 echo " "
@@ -189,7 +153,7 @@ exit 1
 fi
 cd $HOME
 sleep 1
-echo -e "         \e[96mUPDATE IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
+echo -e "         \e[96mUpdate is Going on, Please Wait For a While...!\e[0m"
 echo
 printf "                     \e[96m["
 # While process is running...
@@ -201,7 +165,7 @@ printf "\e[96m]\e[0m"
 echo
 echo
 echo
-printf "\e[96m           UPDATE SUCCESSFULL (LATEST VERSION)..!\e[0m"
+printf "\e[96m           Tool Successfully Updated..!\e[0m"
 sleep 2.0
 cd $HOME
 cd Virus-X1
