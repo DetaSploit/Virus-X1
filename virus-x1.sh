@@ -44,6 +44,7 @@ echo -e "$grn [\e[93m•\e[92m] Virus――1"
 echo -e "$grn [\e[93m•\e[92m] Virus――2"
 echo -e "$grn [\e[93m•\e[92m] Follow――3"
 echo -e "$grn [\e[93m•\e[92m] Exit――4"
+echo -e "$grn [\e[93m•\e[92m] Update――5"
 echo -e "$grn [\e[93m•\e[92m] Creator : MD Asif Hasan ($red DetaSploit$red $grn)$rset"
 echo " "
 echo -ne "\e[92m――――――\e[92m# "
@@ -62,6 +63,9 @@ menu
 elif [ $optnz = "4" ];
 then
 exit 1
+elif [ $optnz = "5" ];
+then
+upd
 else
 echo "Wrong"
 exit
@@ -85,7 +89,9 @@ device it will be factory reset and lot more happens.
                                  👆👆👆
 Use only for fun purpose not for harming someone .
 And we are not responsible for any missuse or illegal activites. 
-you do to other's by this script."
+you do to other's by this script.
+
+――――――Type exit"
 echo
 echo -ne "\e[92m――――――\e[92m# "
 read exitz
@@ -119,7 +125,7 @@ Use only for fun purpose not for harming someone .
 And we are not responsible for any missuse or illegal activites.
 you do to other's by this script.
 
-――――――Type exit――――――"
+――――――Type exit"
 echo
 echo -ne "\e[92m――――――\e[92m# "
 read exitz
@@ -131,21 +137,6 @@ else
 banner
 menu
 fi
-}
-about(){
-clear
-echo -e '\e[91m
-Virus-X1
-'
-echo -e "\e[93m                  Call Me \e[92mMD Asif Hasan" | pv -qL 10
-echo -e "\e[93m             CEO & Founder \e[92mDetaSploit" | pv -qL 10
-echo -e "\e[93m             Hope You Like This Script" | pv -qL 10
-echo -e "\e[93m         Keep Supporting And Follow Me " | pv -qL 10
-echo -e "\e[93m         Follow Me :\e[92m https://facebook.com/DetaSploit\e[0m" | pv -qL 10
-echo -e "\e[92m               Have a Nice Day! Byee.." | pv -qL 10
-sleep 6.0
-banner
-menu
 }
 upd(){
 if [ -d "$HOME/Virus-X1" ];
