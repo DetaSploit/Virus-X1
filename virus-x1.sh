@@ -40,11 +40,10 @@ menu(){
 echo -e "$grn ――――――$ylo Select Option$grn ―――――― $rset"
 echo " "
 echo " "
-echo -e "$grn [\e[93m•\e[92m] Virus――I"
-echo -e "$grn [\e[93m•\e[92m] Virus――II"
-echo -e "$grn [\e[93m•\e[92m] About――ME"
-echo -e "$grn [\e[93m•\e[92m] Follow――US"
-echo -e "$grn [\e[93m•\e[92m] Exit――Y"
+echo -e "$grn [\e[93m•\e[92m] Virus――1"
+echo -e "$grn [\e[93m•\e[92m] Virus――2"
+echo -e "$grn [\e[93m•\e[92m] Follow――3"
+echo -e "$grn [\e[93m•\e[92m] Exit――4"
 echo -e "$grn [\e[93m•\e[92m] Creator : MD Asif Hasan ($red DetaSploit$red $grn)$rset"
 echo " "
 echo -ne "\e[92m――――――\e[92m# "
@@ -57,13 +56,10 @@ then
 save
 elif [ $optnz = "3" ];
 then
-about
-elif [ $optnz = "4" ];
-then
-am start -a android.intent.action.VIEW -d https://bit.ly/3PV3S3r > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://facebook.com/DetaSploit > /dev/null 2>&1
 banner
 menu
-elif [ $optnz = "5" ];
+elif [ $optnz = "4" ];
 then
 exit 1
 else
@@ -121,7 +117,9 @@ device will not be recovered.(Antivirus)
                     👆👆👆
 Use only for fun purpose not for harming someone . 
 And we are not responsible for any missuse or illegal activites.
-you do to other's by this script."
+you do to other's by this script.
+
+――――――Type exit――――――"
 echo
 echo -ne "\e[92m――――――\e[92m# "
 read exitz
